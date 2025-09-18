@@ -1,0 +1,5 @@
+a = int(input('Digite o primeiro cateto'))
+b = int(input('Digite o segundo cateto'))
+c = (a**2) + (b**2)
+resultado = c ** (1/2)
+print(f'A hiportenusa de um triângulo retângulo{resultado}')
